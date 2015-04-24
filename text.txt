@@ -1,7 +1,3 @@
 hello world
 nice to meet you
-<<<<<<< HEAD
-
-=======
 thank you
->>>>>>> a96ec3046e1ec2690584b6f8d8e1083cae0cd2c7
