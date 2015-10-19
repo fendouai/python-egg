@@ -1,0 +1,10 @@
+mkdocs/themes/mkdocs
+mkdocs/tests
+mkdocs/commands
+mkdocs/tests/utils
+mkdocs/config
+mkdocs/themes/readthedocs
+mkdocs/themes
+mkdocs/tests/config
+mkdocs/utils
+mkdocs
