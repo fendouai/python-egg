@@ -58,6 +58,8 @@ require([
                 doc.summary = doc.text.substring(0, 200);
                 var html = Mustache.to_html(results_template, doc);
                 search_results.insertAdjacentHTML('beforeend', html);
+		jQuery('#mkdocs-search-results').show();
+                jQuery('#conent').hide();
             }
         } else {
             search_results.insertAdjacentHTML('beforeend', "<p>No results found</p>");

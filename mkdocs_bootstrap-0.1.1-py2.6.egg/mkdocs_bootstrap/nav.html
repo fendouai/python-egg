@@ -44,9 +44,12 @@
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
 		<li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <!--<a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
                         <i class="fa fa-search"></i> Search
-                    </a>
+                    </a>--!>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" style="position:relative;top:7px">
+                            </div>
                 </li>
 
 <!--                <li {% if not previous_page %}class="disabled"{% endif %}>
