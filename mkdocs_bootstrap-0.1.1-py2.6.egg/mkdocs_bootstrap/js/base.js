@@ -1,4 +1,11 @@
 
+/* Highlight 
+$( document ).ready(function() {
+    hljs.initHighlightingOnLoad();
+    $('table').addClass('table table-striped table-hover');
+});*/
+
+
 function getSearchTerm()
 {
     var sPageURL = window.location.search.substring(1);
@@ -27,6 +34,8 @@ $(document).ready(function() {
         $search_modal.find('#mkdocs-search-query').focus();
     });
 
+    /* Highlight.js
+    hljs.initHighlightingOnLoad();*/
     $('table').addClass('table table-striped table-hover');
 });
 
