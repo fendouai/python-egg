@@ -25,6 +25,12 @@ div.source-links {
     float: right;
 }
 
+table tr th {
+            border-top: 1px solid black !important;
+            background-color: #d3d3d3 !important;
+            border-bottom: 1px solid black;
+        }
+
 /*
  * Side navigation
  *
