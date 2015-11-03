@@ -35,8 +35,9 @@ $(document).ready(function() {
     });
 
     /* Highlight.js
-    hljs.initHighlightingOnLoad();*/
-    $('table').addClass('table table-striped table-hover');
+    hljs.initHighlightingOnLoad();
+    $('table').addClass('table table-striped table-hover');*/
+    $('table').addClass('table');
 });
 
 
