@@ -100,3 +100,12 @@ div.source-links {
         width: 263px;
     }
 }
+
+
+
+
+h1, .h1 {
+    font-size: 30px;
+    color: #265bbd;
+    font-weight: bold;
+}
