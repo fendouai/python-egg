@@ -117,3 +117,52 @@ table tr th {
         width: 263px;
     }
 }
+#conent {
+    margin-top: -22px;
+}
+h1, .h1 {
+    font-size: 30px;
+    color: #265bbd;
+    font-weight: bold;
+    font-family: Tahoma, SimHei;
+}
+h2, .h2 {
+    font-size: 24px;
+    color: #265bbd;
+    font-weight: bold;
+    font-family: Tahoma, SimHei;
+}
+p {
+    color: #3d3f42;
+}
+a {
+    color: #265bbd;
+}
+.bs-sidebar .nav > li > a {
+    color: #3d3f42;
+}
+ul.nav li.main {
+    color: #265bbd;
+    font-size: 16px;
+}
+.bs-sidebar .nav > .active > a, .bs-sidebar .nav > .active:hover > a, .bs-sidebar .nav > .active:focus > a {
+    color: #265bbd;
+    border-right: 5px solid;
+}
+h3, .h3 {
+    color: #3d3f42;
+    font-size: 18px;
+    font-family: Tahoma, SimHei;
+    font-weight: bold;
+}h3, .h3 {
+    color: #3d3f42;
+    font-size: 18px;
+    font-family: Tahoma, SimHei;
+    font-weight: bold;
+}h3, .h3 {
+    color: #3d3f42;
+    font-size: 18px;
+    font-family: Tahoma, SimHei;
+    font-weight: bold;
+} 
+
