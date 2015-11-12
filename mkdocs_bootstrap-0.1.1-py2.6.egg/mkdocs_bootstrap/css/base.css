@@ -141,13 +141,16 @@ a {
 .bs-sidebar .nav > li > a {
     color: #3d3f42;
 }
-ul.nav li.main {
+ul.nav li.main a {
     color: #265bbd;
     font-size: 16px;
 }
 .bs-sidebar .nav > .active > a, .bs-sidebar .nav > .active:hover > a, .bs-sidebar .nav > .active:focus > a {
     color: #265bbd;
     border-right: 5px solid;
+}
+.bs-sidebar .nav > li > a:hover, .bs-sidebar .nav > li > a:focus {
+    border-right: 5px solid #265bbd;
 }
 h3, .h3 {
     color: #3d3f42;
