@@ -158,6 +158,10 @@ h3, .h3 {
     font-family: Tahoma, SimHei;
     font-weight: bold;
 }
+h4, .h4 {
+    font-family: Tahoma, SimHei;
+    color: #3d3f42;
+}
 table tr th {
     background-color: #f3f4f6;
     border: 1px solid #dddddd;
