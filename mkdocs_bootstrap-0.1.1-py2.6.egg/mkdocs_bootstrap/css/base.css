@@ -181,3 +181,19 @@ table tr td {
     padding-left: 0;
     border: none;
 }
+
+
+
+.bs-sidebar::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+.bs-sidebar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(38,91,139,0.3); 
+    border-radius: 10px;
+}
+ 
+.bs-sidebar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(38,91,189,0.6); 
+}
