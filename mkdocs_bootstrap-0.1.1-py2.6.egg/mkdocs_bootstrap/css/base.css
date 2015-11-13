@@ -24,13 +24,13 @@ div.col-md-9 {
 div.source-links {
     float: right;
 }
-
+/*
 table tr th {
-            border-top: 1px solid black !important;
-            background-color: #d3d3d3 !important;
+            border-top: 1px solid black;
+            background-color: #d3d3d3;
             border-bottom: 1px solid black;
         }
-
+*/
 /*
  * Side navigation
  *
@@ -116,4 +116,99 @@ table tr th {
     .bs-sidebar.affix {
         width: 263px;
     }
+}
+
+
+
+
+
+body {
+    font-family: Tahoma, SimHei;
+}
+#conent {
+    margin-top: -22px;
+}
+h1, .h1 {
+    font-size: 30px;
+    color: #265bbd;
+    font-weight: bold;
+    font-family: Tahoma, SimHei;
+}
+h2, .h2 {
+    font-size: 24px;
+    color: #265bbd;
+    font-weight: bold;
+    font-family: Tahoma, SimHei;
+}
+p {
+    color: #3d3f42;
+    font-family: Tahoma, SimHei;
+}
+a {
+    color: #265bbd;
+    font-family: Tahoma, SimHei;
+}
+.bs-sidebar .nav > li > a {
+    color: #3d3f42;
+    padding-left: 35px;
+}
+ul.nav li.main a {
+    color: #265bbd;
+    font-size: 16px;
+    padding-left: 20px;
+    word-break: break-all;
+    word-break: break-word;
+}
+.bs-sidebar .nav > .active > a, .bs-sidebar .nav > .active:hover > a, .bs-sidebar .nav > .active:focus > a {
+    color: #265bbd;
+    border-right: 5px solid;
+}
+.bs-sidebar .nav > li > a:hover, .bs-sidebar .nav > li > a:focus {
+    border-right: 5px solid #265bbd;
+}
+h3, .h3 {
+    color: #3d3f42;
+    font-size: 18px;
+    font-family: Tahoma, SimHei;
+    font-weight: bold;
+}
+h4, .h4 {
+    font-family: Tahoma, SimHei;
+    color: #3d3f42;
+}
+h5, .h5{
+    font-family: Tahoma, SimHei;
+}
+table tr th {
+    background-color: #f3f4f6;
+    border: 1px solid #dddddd;
+    height: 46px;
+    padding-left: 10px;
+    font-family: Tahoma, SimHei;
+}
+table tr td {
+    height: 32px;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    font-family: Tahoma, SimHei;
+}
+.home_section table tr td {
+    padding-left: 0;
+    border: none;
+}
+
+
+
+.bs-sidebar::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+.bs-sidebar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(38,91,139,0.3); 
+    border-radius: 10px;
+}
+ 
+.bs-sidebar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(38,91,189,0.6); 
 }
