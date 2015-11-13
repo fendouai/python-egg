@@ -117,6 +117,14 @@ table tr th {
         width: 263px;
     }
 }
+
+
+
+
+
+body {
+    font-family: Tahoma, SimHei;
+}
 #conent {
     margin-top: -22px;
 }
@@ -134,9 +142,11 @@ h2, .h2 {
 }
 p {
     color: #3d3f42;
+    font-family: Tahoma, SimHei;
 }
 a {
     color: #265bbd;
+    font-family: Tahoma, SimHei;
 }
 .bs-sidebar .nav > li > a {
     color: #3d3f42;
@@ -166,16 +176,21 @@ h4, .h4 {
     font-family: Tahoma, SimHei;
     color: #3d3f42;
 }
+h5, .h5{
+    font-family: Tahoma, SimHei;
+}
 table tr th {
     background-color: #f3f4f6;
     border: 1px solid #dddddd;
     height: 46px;
     padding-left: 10px;
+    font-family: Tahoma, SimHei;
 }
 table tr td {
     height: 32px;
     padding-left: 10px;
     border: 1px solid #dddddd;
+    font-family: Tahoma, SimHei;
 }
 .home_section table tr td {
     padding-left: 0;
