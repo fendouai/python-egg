@@ -191,6 +191,7 @@ table tr th {
 table tr td {
     height: 32px;
     padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid #dddddd;
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei",Arial,Verdana,sans-serif;
 }
