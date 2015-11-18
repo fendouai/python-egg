@@ -185,6 +185,7 @@ table tr th {
     border: 1px solid #dddddd;
     height: 46px;
     padding-left: 10px;
+    padding-right: 10px;
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei",Arial,Verdana,sans-serif;
 }
 table tr td {
