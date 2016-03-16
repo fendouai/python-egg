@@ -132,12 +132,12 @@ body {
     margin-top: 0;
 }
 h1, .h1 {
-    font-size: 30px;
+    font-size: 24px;
     color: #265bbd;
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei",Arial,Verdana,sans-serif;
 }
 h2, .h2 {
-    font-size: 24px;
+    font-size: 20px;
     color: #265bbd;
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei",Arial,Verdana,sans-serif;
     margin-top: 30px;
@@ -169,15 +169,16 @@ ul.nav li.main a {
     border-right: 5px solid #265bbd;
 }
 h3, .h3 {
-    color: #3d3f42;
-    font-size: 18px;
+    color: #265bbd;
+    font-size: 16px;
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei",Arial,Verdana,sans-serif;
 }
 h4, .h4 {
+    font-weight:bold;
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei",Arial,Verdana,sans-serif;
-    color: #3d3f42;
 }
 h5, .h5{
+    font-weight:bold;
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei",Arial,Verdana,sans-serif;
 }
 table tr th {
